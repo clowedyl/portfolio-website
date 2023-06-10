@@ -6,9 +6,9 @@ Button color: #357b70
 Link Color: #00675c
 
 Positioning; 
-Static - defult
+Static - default
 Relative - normal but can be changed with properties
-Absolute - places the element at an exact loaction with regard to its parent element.
+Absolute - places the element at an exact location with regard to its parent element.
 Fixed - Same as absolute but its relative to the browser window.
 */
 :root {
@@ -18,7 +18,7 @@ Fixed - Same as absolute but its relative to the browser window.
     --button-color: #357b70;
     --link-color: #00675c;
     --font-weight-primary: 700;
-    --font-weight-secoundary: 400;
+    --font-weight-secondary: 400;
 }
 * {
     box-sizing: border-box;
@@ -50,12 +50,12 @@ h3 {
 
 p {
     font-size: 12px;
-    font-weight: var(--font-weight-secoundary);
+    font-weight: var(--font-weight-secondary);
 }
 
 div {
     font-size: 12px;
-    font-weight: var(--font-weight-secoundary);
+    font-weight: var(--font-weight-secondary);
 }
 
 a {
